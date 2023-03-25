@@ -1,8 +1,8 @@
 import express = require('express');
 import cors = require('cors');
 import bodyParser = require('body-parser');
-import config from '../config';
-import pointRoutes from '../routes/pointRoutes';
+import config from './config';
+import pointRoutes from './routes/pointRoutes';
 
 const app = express();
 

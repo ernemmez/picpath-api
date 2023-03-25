@@ -12,10 +12,10 @@
        "skipLibCheck": true,
     },
     "include": [
-       "src/api",
+       "src",
        "package.json"
     ],
     "exclude": [
-       "src/api/**/*.test.ts"
+       "src/**/*.test.ts"
     ]
 }
