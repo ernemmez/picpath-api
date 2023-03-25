@@ -1,2 +1,3 @@
 import addPoint from "./pointController";
-export { addPoint };
+import test from "./testController";
+export { addPoint, test };
