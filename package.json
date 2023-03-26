@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "clean": "rimraf ./build",
+    "clean": "rimraf ./dist",
     "build": "npm-run-all lint format clean && tsc",
     "start": "node api",
     "local": "ts-node api",

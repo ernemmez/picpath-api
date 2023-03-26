@@ -4,7 +4,7 @@
        "module": "commonjs",
        "rootDir": "./",
        "resolveJsonModule": true, /* in case you are importing JSON files */
-       "outDir": "./build",
+       "outDir": "./dist",
        "esModuleInterop": true,
        "forceConsistentCasingInFileNames": true,
        "strict": true,
