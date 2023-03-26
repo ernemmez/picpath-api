@@ -10,12 +10,12 @@
   "scripts": {
     "clean": "rimraf ./build",
     "build": "npm-run-all lint format clean && tsc",
-    "start": "node src",
-    "local": "ts-node src",
-    "watch": "nodemon src -e ts,json --exec 'npm run local'",
-    "lint": "eslint src",
-    "format": "npx prettier --write src",
-    "format:check": "npx prettier --check src",
+    "start": "node api",
+    "local": "ts-node api",
+    "watch": "nodemon api -e ts,json --exec 'npm run local'",
+    "lint": "eslint api",
+    "format": "npx prettier --write api",
+    "format:check": "npx prettier --check api",
     "test": "jest"
   },
   "devDependencies": {
