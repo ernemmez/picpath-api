@@ -18,6 +18,7 @@ app.get("/", (req, res) => {
   res.status(200);
   res.sendFile("index.html", { root: __dirname + "/public" });
 });
+
 app.use("/api", pointRoutes.routes);
 
 app.listen(config.port, () =>
